@@ -1,0 +1,86 @@
+.strain_row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  position: relative;
+  width: 100%;
+}
+
+.strain_box {
+  border: 1px solid #eee;
+  border-radius: 8px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  width: calc(25% - 20px);
+}
+
+.strain_box:hover {
+  background-color: rgba(200, 200, 200, 0.1);
+}
+
+.strain_img {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 300px;
+  width: 100%;
+}
+
+.strain_name {
+  border-top: 1px solid #eee;
+  padding: 10px;
+}
+
+.strain_name span {
+  font-size: 10px;
+  font-weight: 700;
+}
+
+.strain_name h2 {
+  font-size: 28px !important;
+}
+
+.strain_name .indica {
+  color: #88b121;
+}
+
+.strain_name .sativa {
+  color: #b100dd;
+}
+
+.strain_name .hybrid {
+  color: #ee9b00;
+}
+
+.strain_info {
+  padding: 10px;
+}
+
+.strain_info p {
+  font-size: 14px;
+  margin: 0;
+}
+
+.strain_chem {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.strain_chem span {
+  color: #777;
+  font-size: 10px;
+  font-weight: 700;
+}
+
+.strain_chem ul {
+  list-style-position: inside;
+  margin: 0;
+  padding: 0;
+}
+
+.strain_chem ul li {
+  font-size: 12px;
+  padding: 0;
+}
